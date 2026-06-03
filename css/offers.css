@@ -1,6 +1,7 @@
 .offers {
   margin-bottom: 104px;
 }
+ 
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -20,10 +21,6 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
