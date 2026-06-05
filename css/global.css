@@ -52,6 +52,10 @@ section.hero {
   width: 100%;
 }
 
+p {
+  font-size: 20px;
+}
+
 .section-title {
   width: 280px;
   margin: 0 auto 32px;
