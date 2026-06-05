@@ -52,6 +52,7 @@ background: url(../img/first-image-mobile-payments.jpg) no-repeat;
     }
     .payments .content-conteiner .image-gallery {
         width: 790px;
+        margin: 0;
     }
     
 }
