@@ -24,6 +24,10 @@
     margin: 24px 0;
 }
 
+.destinations .item.osaka p {
+    margin-bottom: 55px;
+}
+
 .destinations .item p {
     margin-bottom: 24px;
 }
