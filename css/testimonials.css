@@ -1,4 +1,5 @@
-.testimonial-content {
+.testimonial-content ,
+.package.testimonial-conteiner {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -31,9 +32,26 @@
     color: var(--secundary-color);
     line-height: 32px;
     }
+    /*Pacote de Viagens*/
+.package.testimonial-conteiner footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin: 10px 0 16px ;
+}
+
+.package.testimonial-conteiner p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
 
 @media screen and (min-width: 1440px) {
     .testimonial-container {
          flex-direction: row;
+    }
+    .package.testimonial-conteiner {
+        flex-direction: row;
     }
 }
