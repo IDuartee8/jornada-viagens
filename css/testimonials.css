@@ -13,14 +13,14 @@
     flex-direction: row;
     align-items: center;
     gap: 24px;
-    margin-top: 10px;
+    margin: 10px 0 88px ;
 }
 .testimonial-conteiner footer img {
     width: 86px;
     height: 86px;
 }
 
-.testimonial-conteiner footer .profile-content h4 {
+.testimonial-conteiner footer .profile-content h3 {
     font-size: 20px;
     line-height: 32px;
     font-weight: var(--title-weight);
