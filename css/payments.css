@@ -6,6 +6,11 @@
     margin-top: 24px;
 }
 
+h2.content-title1 {
+    font-size: 40px;
+    margin: 0 0 24px;
+}
+
 .payments .content-conteiner .image-gallery .image.first {
 background: url(../img/first-image-mobile-payments.jpg) no-repeat;
     background-size: cover;
@@ -24,22 +29,57 @@ background: url(../img/first-image-mobile-payments.jpg) no-repeat;
 .payments .content-conteiner .image-gallery .image.colspan-2 {
     grid-column: span 2;
 }
+/*Pacote de Viagens*/
+.image-gallery .image.first-package {
+    background: url(../img/travel-package/first-package-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.image-gallery .image.second-package {
+    background: url(../img/travel-package/second-package-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.image-gallery .image.thirdy-package {
+    background: url(../img/travel-package/thirdy-package-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.image-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
 
 @media screen and (min-width: 768px) {
        .payments .content-conteiner .image-gallery .image.first {
     background: url(../img/first-image-tablet-payments.png) no-repeat;
     background-size: cover;
-}
+    }
 
         .payments .content-conteiner .image-gallery .image.second {
     background: url(../img/second-image-tablet-payments.png) no-repeat;
     background-size: cover;
-}
+    }
 
         .payments .content-conteiner .image-gallery .image.thirdy {
     background: url(../img/thirdy-image-tablet-payments.png) no-repeat;
     background-size: cover;
-} 
+    }
+    /*Pacote de Viagens*/
+.image-gallery .image.first-package {
+    background: url(../img/travel-package/first-package-tablet.png) no-repeat;
+    background-size: cover;
+    }
+
+.image-gallery .image.second-package {
+    background: url(../img/travel-package/second-package-tablet.png) no-repeat;
+    background-size: cover;
+    }
+
+.image-gallery .image.thirdy-package {
+    background: url(../img/travel-package/thirdy-package-tablet.png) no-repeat;
+    background-size: cover;
+    } 
 }
 
 @media screen and (min-width: 1440px) {
