@@ -1,5 +1,6 @@
 .hero .hero-img, 
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.package-hero-img {
     height: 400px;
     width: 100%;
 }
@@ -11,6 +12,12 @@
 
 .bottom-hero .hero-img{
     background: url(../img/img-footer-mobile.png) no-repeat;
+    background-size: cover;
+}
+/* Pacotes de Viagens */
+
+.package-hero-img {
+    background: url(../img/travel-package/bottom-hero-mobile.png) no-repeat;
     background-size: cover;
 }
 
@@ -67,9 +74,9 @@
 
 @media screen and (min-width: 768px){
     .hero .hero-img {
-    height: 620px;
-    background: url(../img/hero-tablet.jpg) no-repeat;
-    background-size: cover;
+        height: 620px;
+        background: url(../img/hero-tablet.jpg) no-repeat;
+        background-size: cover;
     }
     .bottom-hero .hero-img {
         height: 400px;
@@ -77,10 +84,10 @@
         background-size: cover;
     }
     .hero h2 {
-    padding: 88px 60px;
-    font-size: 32px;
+        padding: 88px 60px;
+        font-size: 32px;
     }
-    /* Pacotes de Viagens */
+        /* Pacotes de Viagens */
     .travel-packages .hero-content {
         padding: 210px 70px 107px;
     }
@@ -92,6 +99,10 @@
 
     .travel-packages.bottom-hero .hero-img {
         height: 400px;
+        background: url(../img/travel-package/bottom-hero-tablet.png) no-repeat;
+        background-size: cover;
+    }
+    .package-hero-img {
         background: url(../img/travel-package/bottom-hero-tablet.png) no-repeat;
         background-size: cover;
     }
@@ -109,9 +120,9 @@
         background-size: cover;
     }
     .hero h2 {
-    padding: 88px 120px;
+        padding: 88px 120px;
     }
-    /*Pacotes de Viagens*/
+        /*Pacotes de Viagens*/
     .travel-packages .hero-content {
         padding: 150px 120px 170px;
         margin: 0 auto;
@@ -121,6 +132,10 @@
     }
     .travel-packages .hero-img {
         background: url(../img/travel-package/hero-package-desk.png) no-repeat;
+        background-size: cover;
+    }
+    .package-hero-img {
+        background: url(../img/travel-package/bottom-hero-desk.png) no-repeat;
         background-size: cover;
     }
 }
@@ -133,7 +148,7 @@
 
 @media screen and (min-width: 1920px){
     .hero h2 {
-    padding: 88px 160px;
+        padding: 88px 160px;
     }
 }
 
